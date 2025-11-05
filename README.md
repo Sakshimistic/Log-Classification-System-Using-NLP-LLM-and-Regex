@@ -20,6 +20,8 @@ This project implements a hybrid log classification system, combining three comp
    - Provides a fallback or complementary approach to the other methods.
 
 ![architecture](resources/arch.png)
+![postman snap](postman.png)
+
 
 ---
 
@@ -44,7 +46,7 @@ This project implements a hybrid log classification system, combining three comp
 
 0. **Create and Activate a Virtual Environment (Python 3.11.6)**:
    TIP: Check 'module_version_used.txt' for the versions I used.
-   
+
    ```bash
       # Create virtual environment
       python -m venv .venv
