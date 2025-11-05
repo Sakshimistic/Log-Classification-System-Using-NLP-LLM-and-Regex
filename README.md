@@ -43,6 +43,8 @@ This project implements a hybrid log classification system, combining three comp
 ## Setup Instructions
 
 0. **Create and Activate a Virtual Environment (Python 3.11.6)**:
+   TIP: Check 'module_version_used.txt' for the versions I used.
+   
    ```bash
       # Create virtual environment
       python -m venv .venv
@@ -53,7 +55,7 @@ This project implements a hybrid log classification system, combining three comp
       # Activate it (macOS/Linux)
       source .venv/bin/activate
    ```
-   Check 'module_version_used.txt' for the versions I used.
+   
 
 1. **Install Dependencies**:
    Make sure you have Python installed on your system. Install the required Python libraries by running the following command:
@@ -93,11 +95,3 @@ Upload a CSV file containing logs to the FastAPI endpoint for classification. En
 The output will be a CSV file with an additional column `target_label`, which represents the classified label for each log entry.
 
 ---
-
-## Disclaimer
-
-**Copyrights Reserved**:  
-@Codebasics Inc  
-@LearnerX Pvt Ltd  
-
-This project, including its code and resources, is intended solely for educational purposes and should not be used for any commercial purposes without proper authorization.
